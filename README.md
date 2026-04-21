@@ -1,16 +1,9 @@
-# basic_stack_navigation
+# Basic Stack Navigation - Flutter
 
-A new Flutter project.
+تطبيق توضيحي لفهم كيفية عمل المكدس (Stack) في Flutter Navigation
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## الميزات
+- ثلاث شاشات متسلسلة
+- زر push() للانتقال
+- زر pop() للرجوع
+- عرض حالة المكدس
