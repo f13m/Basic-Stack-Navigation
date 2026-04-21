@@ -1,9 +1,27 @@
-# Basic Stack Navigation - Flutter
+#  Basic Stack Navigation - Flutter
 
-تطبيق توضيحي لفهم كيفية عمل المكدس (Stack) في Flutter Navigation
+##  وصف المشروع
+تطبيق بسيط يوضح كيفية عمل الـ Stack في Flutter Navigation باستخدام `Navigator.push()` و `Navigator.pop()`.
 
-## الميزات
-- ثلاث شاشات متسلسلة
-- زر push() للانتقال
-- زر pop() للرجوع
-- عرض حالة المكدس
+## 📸 صور المخرجات
+
+| HomeScreen | DetailScreen | عرض حالة المكدس |
+|------------|--------------|-----------------|
+| ![Home Screen](screenshots/home_screen.png) | ![Detail Screen](screenshots/detail_screen.png) | ![Stack Dialog](screenshots/stack_dialog.png) |
+
+##  المتطلبات المحققة
+
+-  شاشة رئيسية (HomeScreen)
+-  شاشة تفاصيل (DetailScreen)
+-  زر على كل شاشة للتنقل
+-  استخدام `Navigator.push()` للانتقال
+-  استخدام `Navigator.pop()` للرجوع
+-  زر "عرض حالة المكدس" يوضح ترتيب الشاشات
+
+##  شرح تغير المكدس
+
+| العملية | حالة المكدس |
+|---------|-------------|
+| بداية التطبيق | `[HomeScreen]` |
+| الضغط على زر "الانتقال إلى التفاصيل" | `[HomeScreen, DetailScreen]` |
+| الضغط على زر "الرجوع (pop)" | `[HomeScreen]` |
